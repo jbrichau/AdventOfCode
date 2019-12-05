@@ -120,7 +120,7 @@ AC2019Day1 >> requiredFuel [
 	^ self inputMasses inject: 0 into:[:total :i | total + ((i // 3) - 2) ]
 ]
 
-{ #category : #puzzles }
+{ #category : #helpers }
 AC2019Day1 >> requiredFuelFor: i [
 	"self new requiredFuelFor: 100756"
 	| fuel |
